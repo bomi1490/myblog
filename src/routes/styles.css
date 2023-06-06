@@ -1,0 +1,73 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 500px;
+  height: 600px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-color: rgba(107, 147, 187, 0.74);
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: rgba(138, 198, 209, 0.74);
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: rgba(187, 222, 214, 0.74);
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: rgba(250, 227, 217, 0.74);
+}
+
+.swiper-slide:nth-child(5n) {
+  background-color: rgba(255, 182, 185, 0.74);
+}
